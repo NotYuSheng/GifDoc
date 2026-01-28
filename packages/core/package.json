@@ -23,7 +23,7 @@
     "fluent-ffmpeg": "^2.1.2",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "js-yaml": "^4.1.0",
-    "zod": "^3.22.4"
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@types/fluent-ffmpeg": "^2.1.24",
