@@ -1,0 +1,32 @@
+{
+  "name": "@gifdoc/core",
+  "version": "1.0.0",
+  "description": "Core library for GifDoc - automated demo GIF generation",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "gif",
+    "playwright",
+    "ffmpeg",
+    "video"
+  ],
+  "author": "YS",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.40.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "js-yaml": "^4.1.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.24",
+    "@types/js-yaml": "^4.0.9"
+  }
+}

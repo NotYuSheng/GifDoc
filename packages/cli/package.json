@@ -1,0 +1,39 @@
+{
+  "name": "gifdoc",
+  "version": "1.0.0",
+  "description": "CLI tool for automated demo GIF generation",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "gifdoc": "./bin/gifdoc.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "dev": "tsx src/cli.ts",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "gif",
+    "demo",
+    "documentation",
+    "cli",
+    "playwright",
+    "automation"
+  ],
+  "author": "YS",
+  "license": "MIT",
+  "dependencies": {
+    "@gifdoc/core": "*",
+    "commander": "^11.1.0",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1",
+    "inquirer": "^9.2.12"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
